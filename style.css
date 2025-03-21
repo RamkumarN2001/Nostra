@@ -1,0 +1,164 @@
+#popup-nav h1 {
+    display: inline;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.slider{
+    position: relative;
+    width: 90%;
+    height: 80vh;
+    background: url("Images/Women.png");
+}
+
+
+
+
+
+.heading_2 a {
+    padding: 8px;
+    font-size: 18px;
+}
+
+.main_diplay-content {
+    position: absolute;
+
+}
+
+.btn-left{
+    position: absolute;
+    top: 50%;
+    right: 90%;
+}
+
+.btn-right {
+    position: absolute;
+    top: 50%;
+    left: 90%;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 2;
+    opacity: 0.6;
+    /* padding: 5rem; */
+    border-radius: 1px;
+}
+
+/* #New_arrivals_container_items{
+position:absolute;
+top: 50%;
+} */
+
+.new-arrivals {
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+.new-arrival-item {
+    position: relative;
+    border: solid black 2px;
+    border-radius: 1%;
+    display: flex;
+    width: 20%;
+    flex-wrap: wrap;
+}
+
+.new-arrival-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.new-arrival-item button {
+    position: absolute;
+    width: auto;
+    top: 50%;
+    left:30%;
+    z-index: 5;
+    padding: 2%;
+}
+
+#Most_wanted_container_items {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#Most_wanted_container_items button {
+    position: absolute;
+    top: 0;
+    left: 20%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    z-index: 3;
+
+}
+
+#offer_container {
+    height: auto;
+    width: 100%;
+    align-items: center;
+}
+
+.offer_categories1{
+    width: 50%;
+}
+
+.img1{
+    height: 55.5%;
+}
+.img1 img{
+    width:100%;
+    border-radius: 5px;
+    border: solid  aqua 2px;
+}
+
+.offer_categories2{
+    width: 50%;
+    text-align: center;
+    /* border: solid  aqua 2px; */
+    padding: 20px;
+}
+
+#search_eng {
+    width: 80%;
+    border: solid black 2px;
+    padding: 5px;
+    margin: 10px;
+    display: inline-block;
+}
+
+#newsletter_button button {
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+.commets {
+    position: relative;
+    border: solid black 2px;
+}
+#newsletter_button button:hover{
+    background-color: red;
+    transition:all;
+    /* transition-duration: 200ms; */
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* Collections  */
+#product-search{
+    border: solid black 2px;
+}
