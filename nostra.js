@@ -45,3 +45,4 @@ btns.forEach((button) => {
         updateSlider();
     });
 });
+
